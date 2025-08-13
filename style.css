@@ -53,12 +53,14 @@ nav a{
     text-decoration: none;
     margin: auto;
     padding: 15px 20px; 
-    font-size: 1.2em;  
+    font-size: 1.5em;  
 }
 
 nav a:hover{
     text-decoration: underline;
     color: var(--cor3); 
+    font-weight: bolder; 
+    font-size: 1.6em;
 }
 
 main.conteudo-principal{
@@ -66,3 +68,39 @@ main.conteudo-principal{
     margin: 0 auto;
     
 } 
+
+section.secao-principal{
+    max-width: 800px;
+    height: 200vh;
+    position: relative;
+}
+
+h1.titulo-secundario{
+    font: bolder 3em 'Fredoka-Bold', sans-serif;
+    color: var(--cor1);
+    position: absolute;
+    top: 0%;
+    left: 5%;
+
+}
+
+p.texto1{
+    max-width: 350px; 
+    font: normal 1.6em 'Fredoka-Bold', sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+div.fundo-imagem{
+    background-image: url('imagens/sun.jpg');
+    width: 450px;
+    height: 450px;
+    background-size: cover;  
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+    transform: translate(60%, -50%);
+    border-radius: 2px;
+}
