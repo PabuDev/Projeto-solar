@@ -74,7 +74,7 @@ section.secao-principal{
     max-width: 900px;
     min-width: 300px;
     margin: 0 auto;
-    height: 200vh;
+    height: 50vh;
     position: relative;
 }
 
@@ -82,28 +82,33 @@ h1.titulo-secundario{
     font: bolder 3em 'Fredoka-Bold', sans-serif;
     color: var(--cor1);
     position: absolute;
-    top: 2%;
-    left: -15%;
+    top: 5%;
+    left: -10%;
 
+}
+
+p{
+    color: var(--cor1);
+    text-align: justify;
+    font: normal 1.6em 'Fredoka-Bold', sans-serif;
 }
 
 p.texto1{
     max-width: 450px; 
-    font: normal 1.6em 'Fredoka-Bold', sans-serif;
     position: absolute;
-    top: 8%;
-    left: -15%;
+    top: 25%;
+    left: -10%;
 }
 
 div.fundo-imagem{
     width: 400px;
     height: 400px;
-    background-size: contain;  
+    background-size: cover;   
     position: absolute;
     top: 20%;
     left: 20%;
 
-    transform: translate(70%, -50%);
+    transform: translate(70%, -10%);
     border-radius: 2px;
 }
 
