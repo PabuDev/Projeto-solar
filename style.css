@@ -65,12 +65,15 @@ nav a:hover{
 
 main.conteudo-principal{
     max-width: 900px;
+    min-width: 300px;
     margin: 0 auto;
     
 } 
 
 section.secao-principal{
-    max-width: 800px;
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
     height: 200vh;
     position: relative;
 }
@@ -96,7 +99,7 @@ div.fundo-imagem{
     background-image: url('imagens/sun.jpg');
     width: 450px;
     height: 450px;
-    background-size: cover;  
+    background-size: contain;  
     position: absolute;
     top: 20%;
     left: 20%;
