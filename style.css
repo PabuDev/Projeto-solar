@@ -50,6 +50,7 @@ nav.menu-principal{
     text-align: center; 
     padding-top: 2vw;
     padding-bottom: 2vw; 
+    box-shadow: 2px 2px 5px #0000005c;
 }
 
 nav a{
