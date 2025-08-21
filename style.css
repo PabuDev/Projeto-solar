@@ -79,7 +79,7 @@ section.secao-imagem{
     padding-bottom: 40vh;
     background-image: url('imagens/sun.jpg');
     background-size: cover;
-    background-color: center top;
+    background-position: center;
     background-attachment: fixed;
 }
 
