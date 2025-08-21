@@ -98,7 +98,8 @@ footer{
     color: var(--cor2);
     text-align: center;
     font-size: 1.5vw;
-    padding: 1vw;
+    height: 2vh; 
+    padding: 2vw;
     font-family: 'Fredoka-Bold';
 }
 
