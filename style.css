@@ -25,7 +25,7 @@ html, body{
 }
 
 header.cabecalho-principal{
-    height: 30vw;
+    height: 40vw;
     background-color: var(--cor1);
     background-image: url('imagens/planet.jpg');
     background-size: cover;
@@ -45,10 +45,11 @@ header.cabecalho-principal h1{
 
 nav.menu-principal{ 
     background-color: var(--cor4);
-    height: 10vh;
+    height: 5vh; 
     margin: auto;
     text-align: center; 
-    padding-top: 3vw;;
+    padding-top: 2vw;
+    padding-bottom: 2vw; 
 }
 
 nav a{
@@ -59,6 +60,14 @@ nav a{
     font-weight: bold;
     padding:0% 3vw;     
     margin:10px;
+}
+
+nav a:hover{
+    color: var(--cor3);
+    background-color: var(--cor1);
+    font-weight: bolder;
+    border-radius: 5px;
+    text-decoration: underline;
 }
 
 section{
@@ -79,7 +88,7 @@ section.secao-imagem{
     padding-bottom: 40vh;
     background-image: url('imagens/sun.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center left;
     background-attachment: fixed;
 }
 
