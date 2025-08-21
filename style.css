@@ -93,7 +93,7 @@ article.artigo-principal p{
     font-size: 2vw;
     text-align: justify;
     padding: 20px;
-    line-height: 4vw;  
+    line-height: 5vw;  
     margin-top: 10px;
 }
 
@@ -108,7 +108,7 @@ article.artigo-imagem{
 }
 
 img{
-    width: 30vw;
+    width: 35vw;
     height: 50vh;
     object-fit: cover;
     object-position: center left; 
