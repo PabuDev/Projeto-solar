@@ -108,7 +108,7 @@ article.artigo-imagem{
 }
 
 img{
-    width: 40vw;
+    width: 30vw;
     height: 50vh;
     object-fit: cover;
     object-position: center left; 
