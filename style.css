@@ -19,105 +19,90 @@
     padding: 0px;
 }
 
-body{
+html, body{
     background-color: var(--cor2);
+    height: 100vh; 
 }
 
 header.cabecalho-principal{
-    width: 100%;
-    height: 200px;
+    height: 30vw;
     background-color: var(--cor1);
-    color: var(--cor2);
-    position: relative;
     background-image: url('imagens/planet.jpg');
     background-size: cover;
-    background-position: center; 
-
+    background-position: center top;
+    position: relative;
 }
 
-h1.titulo-principal{
-    font: normal 8em 'Fredoka-Bold', sans-serif;
+header.cabecalho-principal h1{
+    color: var(--cor2);
+    font-family: 'Fredoka-Bold';
+    font-size: 10vw;
     position: absolute;
-    margin: 0px;;
-    top: 50%; 
+    top: 50%;
     left: 50%;
-    transform: translate( -50%, -50%);
+    transform: translate(-50%, 5%); 
 }
 
-nav.navegacao-principal{
-    width: 100%;
-    height: 30px;
+nav.menu-principal{ 
     background-color: var(--cor4);
-    text-align: center; 
-    padding: 10px 0px 10px 0px; 
+    height: 6vh;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px 0px 0px; 
+    
 }
 
 nav a{
-    color: var(--cor2);
     text-decoration: none;
-    margin: auto;
-    padding: 15px 20px; 
-    font-size: 1.5em;  
+    color: var(--cor2);
+    font-family: 'Fredoka-Bold';
+    font-weight: bold;
+    padding: 0vw 2vw;      
+    margin:10px;
 }
-
-nav a:hover{
-    text-decoration: underline;
-    color: var(--cor3); 
-    font-weight: bolder; 
-    font-size: 1.6em;
-}
-
-main.conteudo-principal{
-    max-width: 1300px;
-    min-width: 300px;
-    margin: auto;
-    
-} 
 
 section.secao-principal{
-    max-width: 900px;
-    min-width: 300px;
-    margin: auto;
-    height: 50vh;
     position: relative;
-}
+} 
 
-h1.titulo-secundario{
-    font: bolder 3em 'Fredoka-Bold', sans-serif;
-    color: var(--cor1);
+article{
+    width: 80vw;
+    height: 80vw; 
+    display: inline-block; 
     position: absolute;
-    top: 5%;
-    left: -10%;
-
 }
 
-p{
+article.artigo-principal{
+    width: 40vw;
+    height: 75vh; 
+    top: 20%;  
+    left: 20%; 
+    transform: translate( -40%, 10%);
+    
+}
+article.artigo-principal h1{
     color: var(--cor1);
+    font-family: 'Fredoka-Bold';
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 20px;
+}
+article.artigo-principal p{
+    color: var(--cor1);
+    font-family: 'Fredoka-Bold';
+    font-size: 2vw;
     text-align: justify;
-    font: normal 1.6em 'Fredoka-Bold', sans-serif;
+    padding: 20px;
+    line-height: 6vh; 
 }
 
-p.texto1{
-    max-width: 450px; 
-    position: absolute;
-    top: 25%;
-    left: -10%;
-}
-
-div.fundo-imagem{
-    width: 400px;
-    height: 400px;
-    background-size: cover;   
-    position: absolute;
-    top: 20%;
-    left: 20%;
-
-    transform: translate(70%, -10%);
-    border-radius: 2px;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-    border-radius: 2px;
+article.artigo-imagem{
+    width: 40vw;
+    height: 75vh; 
+    background-image: url('imagens/sun.jpg');
+    background-size: cover;
+    background-position: center left;
+    top: 20%;  
+    left: 50%;
+    transform: translate( -5%, 10%);
 }
