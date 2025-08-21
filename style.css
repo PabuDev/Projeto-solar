@@ -106,12 +106,12 @@ article.artigo-imagem{
 }
 
 img{
-    width: 35vw;
-    height: 40vh;
+    width: 40vw;
+    height: 20vh;
     object-fit: cover;
     object-position: center left; 
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 90%);
 }
