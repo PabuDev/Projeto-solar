@@ -62,7 +62,7 @@ nav a{
     margin:10px;
 }
 
-nav a:hover{
+nav a:hover, footer a:hover{
     color: var(--cor3);
     background-color: var(--cor1);
     font-weight: bolder;
@@ -92,3 +92,16 @@ section.secao-imagem{
     background-attachment: fixed;
 }
 
+footer{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+    padding: 1vw;
+    font-family: 'Fredoka-Bold';
+}
+
+footer a{
+    color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+}
